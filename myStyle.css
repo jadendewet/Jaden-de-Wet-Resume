@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    background-image: url("wallpaper2.jpg");
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: beige;
+}
+
+.heading{
+    color: beige;
+    float: left;
+    text-align: left;
+    position: relative;
+}
+
+h2{
+    padding-top: 3%;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tags{
+    padding-left: 23%;
+    padding-bottom: 30px;
+}
+
+header::after{
+    content:'';
+    display: table;
+    clear: both;
+
+}
+
+.skills{
+    padding-top: 3%;
+    padding-right: 35%;
+  
+}
+
+.se{
+    padding-left:22.5%;
+}
+
+h3{
+    padding-left: 350%;
+}
+
+.contact{
+    padding-top: 7%;
+    padding-right: 43%;
+}
+
+.skillsList{
+    padding-left: 24%;
+    padding-bottom: 0%;
+}
+
+.background{
+    padding-top: 1%;
+    padding-right: 35%;
+}
+
+.nsc{
+    padding-top: -1%;
+    padding-left: 22.5%;
+}
+
+p{
+    padding-top: 0%;
+    padding-left: 22.5%;
+    padding-bottom: 0%;
+}
+
+h3{
+    padding-top: 0.5%;
+    padding-left: 12.5%;
+}
+
+ul{
+    padding-left: 24%;
+    padding-bottom: 0%;
+}
+
+.logo{
+    float:left;
+}
+
+nav{
+    float: right;
+}
+
+.projectName{
+    padding-right: 40%;
+}
+
+.projects{
+    padding-left: 22.5%;
+}
+
+.aboutMeText{
+    text-align: center;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: #000;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
